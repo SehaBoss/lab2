@@ -6,5 +6,5 @@
 int main()
 {
     printf("Hello World!\n");
-    printf("%s", roots(2, 2, 2));
+    return myfunc(2);
 }
