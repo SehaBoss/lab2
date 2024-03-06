@@ -17,6 +17,21 @@ TEST(RootsTest, num) {
     ASSERT_STREQ(roots(2,4,2), "-1.00");
 }
 
+TEST(RootsTest, zero) {
+    ASSERT_STRCASEEQ(roots(0,0,0), "Любой x");
+    ASSERT_STRCASEEQ(roots(0,0,3), "Нет корней");
+    ASSERT_STRCASEEQ(roots(0,4,0), "0");
+    ASSERT_STRCASEEQ(roots(10,0,0), "0");
+    ASSERT_STRCASEEQ(roots(0,4,4), "-1.00");
+    ASSERT_STRCASEEQ(roots(1,0,4), "2.00;-2.00");
+    ASSERT_STRCASEEQ(roots(-8,10,0), "-0.00;1.25");
+}
+
+TEST(RootsTest, vech){
+    ASSERT_STRCASEEQ(roots(3,-8,5), "1.67;1.00");
+    ASSERT_STRCASEEQ(roots(-12,-12,12), "-1.62;0.62");
+}
+
 TEST(RootsTest, inputFile) {
     char *filename = (char *)malloc(sizeof(char) * 1024);
     sprintf(filename, "%s/inputr.txt", INPUTDIR);

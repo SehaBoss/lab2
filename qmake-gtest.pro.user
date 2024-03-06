@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2024-03-06T17:41:29. -->
+<!-- Written by QtCreator 6.0.2, 2024-03-06T20:13:20. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -74,7 +74,10 @@
     <value type="Qt::CheckState" key="1@/home/seha/Desktop/ПО/lab2/gtest/tests/fibonachi_test.h:negative">Checked</value>
     <value type="Qt::CheckState" key="1@/home/seha/Desktop/ПО/lab2/gtest/tests/fibonachi_test.h:num0">Checked</value>
     <value type="Qt::CheckState" key="1@/home/seha/Desktop/ПО/lab2/gtest/tests/roots_test.h:RootsTest">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/seha/Desktop/ПО/lab2/gtest/tests/roots_test.h:inputFile">Checked</value>
     <value type="Qt::CheckState" key="1@/home/seha/Desktop/ПО/lab2/gtest/tests/roots_test.h:num">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/seha/Desktop/ПО/lab2/gtest/tests/roots_test.h:vech">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/seha/Desktop/ПО/lab2/gtest/tests/roots_test.h:zero">Checked</value>
     <value type="Qt::CheckState" key="1@/home/seha/Desktop/ПО/lab2/gtest/tests/tst_stdout.h:TestStdOut">Checked</value>
     <value type="Qt::CheckState" key="1@/home/seha/Desktop/ПО/lab2/gtest/tests/tst_stdout.h:usingCapture">Checked</value>
     <value type="Qt::CheckState" key="1@/home/seha/Desktop/ПО/lab2/gtest/tests/tst_test1.h:suite1">Checked</value>
@@ -108,7 +111,7 @@
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{2b5425ed-09f7-442e-95d6-5fad7e83bc35}</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">1</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="int" key="EnableQmlDebugging">0</value>
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/seha/Desktop/ПО/lab2/build-qmake-gtest-Desktop-Debug</value>
