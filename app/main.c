@@ -6,6 +6,5 @@
 int main()
 {
     printf("Hello World!\n");
-    char* stroka = roots(2, 2, 2);
-    return printf("%s\n", stroka);
+    printf("%s\n", roots(2,2,2));
 }
