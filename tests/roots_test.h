@@ -51,7 +51,7 @@ TEST(RootsTest, inputFile) {
     int b =0;
     int c = 0;
     char output[20];
-    int ret = sscanf(buf, "%d %d %d %s", &a, &b, &c, &output);
+    int ret = sscanf(buf, "%d %d %d %s", &a, &b, &c, output);
     free(buf);
     ASSERT_EQ(ret, 4);
 
